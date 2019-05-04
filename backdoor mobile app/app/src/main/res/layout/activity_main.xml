@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context="gasa_soft.ga.backdoor.MainActivity"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/b_img1"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/image"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/test_img"
+    >
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/wis1"
+        android:textSize="23dp"
+
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:autoText="false"
+        android:textColor="#c7080808"
+        android:textColorHighlight="#f6de08" />
+</ScrollView>
+</LinearLayout>
